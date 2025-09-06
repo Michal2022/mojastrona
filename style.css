@@ -122,5 +122,96 @@ ul {
   text-align: left;
 }
 
+/* Przycisk wyrównany do prawej */
+.top-button {
+  text-align: right;
+  padding: 20px;
+}
+
+.top-button button {
+  padding: 10px 20px;
+  background-color: #00bfff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.top-button button:hover {
+  background-color: #0099cc;
+}
+
+/* Kontener formularza wyśrodkowany */
+.formularz-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background: #fff;
+}
+
+/* Styl formularza */
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Styl nagłówka formularza */
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styl etykiet */
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #555;
+  text-align: left;
+}
+
+/* Pola tekstowe i textarea */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  resize: vertical;
+}
+
+/* Przycisk wysyłania */
+form button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+
 
 
